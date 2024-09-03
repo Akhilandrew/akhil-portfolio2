@@ -80,7 +80,7 @@ const Services = () => {
                   </Link>
                 </div>
                 <h2 className="text-[36px] font-bold leading-none text-white group-hover:text-accent transition-all duration-300">{service.title}</h2>
-                <p className="text-white/80 overflow-y-auto max-h-[180px] mb-4">{service.description}</p>
+                <p className="text-white/60 overflow-y-auto max-h-[180px] mb-4">{service.description}</p>
               </div>
               <div className="border-b border-white/20 w-full mt-auto"></div>
             </motion.div>
