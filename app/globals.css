@@ -15,4 +15,42 @@
     .h3 {
         @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
     }
+    
+    .text-outline {
+        -webkit-text-stroke: 1px #ffffff;
+        text-stroke: 1px #ffffff;
+      }
+      
+      .text-outline-hover {
+        -webkit-text-stroke: 1px #00ff99;
+        text-stroke: 1px #00ff99;
+      }
+      
+      /* Ensure the text is transparent to show the outline */
+      .text-outline,
+      .text-outline-hover {
+        color: transparent;
+        transition: all 0.3s ease;
+      }
+      
+      /* Add a fallback for browsers that don't support -webkit-text-stroke */
+      @supports not (-webkit-text-stroke: 1px #ffffff) {
+        .text-outline,
+        .text-outline-hover {
+          text-shadow: 
+            -1px -1px 0 #ffffff,
+            1px -1px 0 #ffffff,
+            -1px 1px 0 #ffffff,
+            1px 1px 0 #ffffff;
+        }
+        
+        .text-outline-hover {
+          text-shadow: 
+            -1px -1px 0 #00ff99,
+            1px -1px 0 #00ff99,
+            -1px 1px 0 #00ff99,
+            1px 1px 0 #00ff99;
+        }
+      }
 }
+
