@@ -8,26 +8,26 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: '01',
-    title: 'Web Development',
-    description: 'A small functional person-to-person message center application built using Django. It has a REST API and uses WebSockets to notify clients of new messages and avoid polling.',
+    title: 'Research and Development',
+    description: ' Leveraging advanced artificial intelligence and machine learning techniques to develop customized solutions for various industries. From automating processes to building predictive models, I help businesses solve complex problems and improve efficiency through innovative AI applications.',
     href: ""
   },
   {
     num: '02',
-    title: 'ClaDeMuC-CD',
-    description: 'It`s a conference paper which got published in IEEE Xplore edition. Research is based on the analysis of comparison between conventional CCN`s, Vision transformer and Object Detection models like YoLO_v5 and detectron_v3',
-    href: "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=Akhilesh%20Babu%20Tumati"
+    title: 'Software Development',
+    description: 'I specialize in building custom software solutions for various sectors, including finance, healthcare, and manufacturing. Additionally, I develop machine learning models and algorithms that enhance decision-making processes and optimize operational workflows.',
+    href: ""
   },
   {
     num: '03',
-    title: 'Web Development',
-    description: 'A small functional person-to-person message center application built using Django. It has a REST API and uses WebSockets to notify clients of new messages and avoid polling.',
+    title: 'Data Science and Analytics',
+    description: 'My data science services focus on analyzing complex datasets to deliver actionable insights for industries such as finance, healthcare, and marketing. I also design and implement scalable data architectures and pipelines that streamline data handling and improve processing efficiency.',
     href: ""
   },
   {
     num: '04',
-    title: 'Web Development',
-    description: 'A small functional person-to-person message center application built using Django. It has a REST API and uses WebSockets to notify clients of new messages and avoid polling.',
+    title: 'Computer Networks',
+    description: 'With a background in cloud computing and network security, I can design and implement secure network architectures and protocols. I provide services in network optimization, cybersecurity assessments, and secure cloud infrastructure management to ensure systems are protected and efficient.',
     href: ""
   },
 ];
