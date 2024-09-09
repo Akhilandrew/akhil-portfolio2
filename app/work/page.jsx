@@ -29,6 +29,15 @@ const projects = [
     live: "",
     github: "https://github.com/Akhilandrew/project_846/blob/main/Crypto_currency_predictioin.ipynb",
   },
+  {
+    num: "03",
+    category: "Software Development",
+    description: "It is an Enterprize application for selling productions based on aviation industry,At Honeywell, I developed Katalon automation scripts, cutting testing time by 30% and boosting coverage by 25%. I also improved front-end performance with JavaScript and Angular, increasing user satisfaction by 15% and reducing page load times by 20%  ",
+    stack: [{ name: "Java Script" },{ name: "Angular/React"}, {name: "Spring-boot"}],
+    image: "/assets/work/Honeywell_ASDS_screenshot.png",
+    live: "https://ads.honeywell.com/login",
+    github: "",
+  },
 ];
 
 const Work = () => {
