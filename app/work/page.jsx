@@ -16,7 +16,7 @@ const projects = [
     category: "AI/ML",
     description: "I co-authored a research paper on detecting Mahabharata characters using a custom dataset. It analyzed CNNs, Vision Transformers, and object detection models like ResNet-50, VGG-19, YOLOv5, and Detectron-V3 to determine the best-performing model for accuracy and precision. The study was presented at the 2023 IEEE International Conference",
     stack: [{ name: "Google Colab" }, { name: "Roboflow" }, { name: "OverLeaf" }, { name: "Python" }],
-    image: "/assets/work/ieee_conf_paper.png",
+    image: "/assets/work/ieee_conf_paper-min.png",
     live: "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=akhilesh%20babu%20tumati",
     github: "https://github.com/Akhilandrew/project_846/tree/main/Multiple_Character_detection",
   },
