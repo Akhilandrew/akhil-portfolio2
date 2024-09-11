@@ -13,24 +13,19 @@ pnpm dev
 # or
 bun dev
 ```
+Generally it opens on port localhost:3000, and all of the web pages are udated in app folder, and you can add or customize based on your choice, and in between have downloaded this list of packages for animations, icons and other components, 
+1-> you can start off with this command for creating your next.js proejct[ npx create-next-app@latest .]
+2-> installaito of icon pack[ npx shadecn-ui@latest init ]
+3-> installation of input component[ npx shadcn-ui@latest add inout button scroll-area select sheet tabs textarea tooltip ]
+4-> installatiion of page animations[ npm i framer-motion ]
+5-> installation of react icons[ npm i react-icons]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+these are the main packages that you have to install, there might be some more packages that i might have missed, so as you do on building this portfolio you will find out which packages to install.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
