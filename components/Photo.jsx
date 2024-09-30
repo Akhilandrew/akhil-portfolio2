@@ -70,7 +70,7 @@ const Photo = () => {
         >
           <div style={{ width: imageSize.width, height: imageSize.height }}>
             <Image
-              src="/assets/photo.png"
+              src="/assets/photo_mine.png"
               alt="Akhilesh Babu Tumati"
               layout="fill"
               objectFit="cover"
